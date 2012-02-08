@@ -1,0 +1,9 @@
+Here is a more detailed explanation of the scripts.  In the scripts the comments etc are lined up correctly when they are viewed in SciTE Editor.  This is what I use to code AutoIt scripts.
+
+clipboard_logger.au3 - This code was written by Rob Fuller (a.k.a Mubix from Room362.com) on the Hak5 podcast.  This is like a keyboard logger but for the clipboard.  Anything that is copied to the clipboard will be tracked into a logfile.
+
+get_putty_sessions.au3 - This script will get all your PuTTY sessions stored in the registry and output them to a text file.
+
+logoff.au3 - This is a simple wrapper script/splash screen around a logoff batch file I have.  The only reason I wrote this was because I have a new microsoft keyboard and I have assigned the logogg batch file to a hotkey.  I wrote this so if anyone decides to see what the hotkeys do then they will see this so my machine won't shutdown straight away.
+
+security_eventlog.au3 - This interrogates the security part of the Event log, it searches for failed login attempts. It displays the last failed login attempt on the screen.  It the copies all security details into a logfile.  It then does a backup of the event log then clears it out.
