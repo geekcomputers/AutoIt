@@ -11,9 +11,10 @@
 ; Author		: Craig Richards
 ; Created		: 20th February 2012
 ; Last Modified	: 29th February 2012
-; Version		: 1.1
+; Version		: 1.2
 
-; Modifications	: 1.1 - 29/02/12 - CR Added dropbox registry value and zipped_logs directory
+; Modifications	: 1.1 - 29/02/12 - CR - Added dropbox registry value and zipped_logs directory
+;				: 1.2 - 07/03/2012 - CR - Added a Msgbox for when it's set the environment up
 
 ; Description	: Sets up my enviroment when I get a new PC
 
@@ -21,6 +22,7 @@
 
 Setup_dirs()
 Registry_settings()
+MsgBox(0, "Environment", "Your Environment has been setup")
 
 Func Registry_settings()
 	$scripts = RegWrite("HKEY_CURRENT_USER\Environment", "scripts", "REG_EXPAND_SZ", "%USERPROFILE%\My Documents\My Dropbox\scripts")
