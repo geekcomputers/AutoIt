@@ -1,3 +1,11 @@
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Outfile=Compiled Exe\get_putty_sessions.exe
+#AutoIt3Wrapper_Outfile_x64=Compiled Exe_64bit\get_putty_sessions_64.exe
+#AutoIt3Wrapper_Compression=4
+#AutoIt3Wrapper_Compile_Both=y
+#AutoIt3Wrapper_UseX64=y
+#AutoIt3Wrapper_Res_requestedExecutionLevel=asInvoker
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 ; Script Name	: get_putty_sessions.au3
 ; Author		: Craig Richards
 ; Created		: 26th January 2012
